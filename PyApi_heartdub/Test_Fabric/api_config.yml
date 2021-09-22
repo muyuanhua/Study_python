@@ -1,0 +1,27 @@
+host:http://one.heartdub.cn:8082
+
+login:
+  name:【登录】
+  method:post
+  url:/login
+  data:
+    user_addr:13668418734
+    user_pass:myh123
+    auth_code:150be7d0a3d711eb81d2d1264cd620fb
+
+
+
+fabric_type_select:
+  name:【查询面料类别】
+  method:post
+  url:/fabric_type_select
+  data:
+    parent_code:db
+    type_name:平布
+
+fabric_info_select:
+  name:【查询面料列表】
+  method:post
+  url:/fabric_info_select
+  data:
+    user_code:202108111002491543221

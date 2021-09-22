@@ -1,0 +1,343 @@
+2021-09-03 14:18:45,070 opmysql.py[line:34]ERROR (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 26, in __init__
+    self.coon=pymysql.connect(host=host_db,user=user_db,passwd=passwd_db,db=name_db,port=port_db,charset="utf8",cursorclass=pymysql.cursors.DictCursor)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 632, in connect
+    self._get_server_information()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+2021-09-03 14:31:09,241 opmysql.py[line:34]ERROR (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 26, in __init__
+    self.coon=pymysql.connect(host=host_db,user=user_db,passwd=passwd_db,db=name_db,port=port_db,charset="utf8",cursorclass=pymysql.cursors.DictCursor)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 632, in connect
+    self._get_server_information()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+2021-09-06 09:25:58,151 opmysql.py[line:27]ERROR (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 19, in __init__
+    self.coon=pymysql.connect(host=host_db,user=user_db,passwd=passwd_db,db=name_db,port=port_db,charset="utf8",cursorclass=pymysql.cursors.DictCursor)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 632, in connect
+    self._get_server_information()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+2021-09-06 09:26:24,242 opmysql.py[line:27]ERROR (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 19, in __init__
+    self.coon=pymysql.connect(host=host_db,user=user_db,passwd=passwd_db,db=name_db,port=port_db,charset="utf8",cursorclass=pymysql.cursors.DictCursor)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 632, in connect
+    self._get_server_information()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+2021-09-06 09:42:40,794 opmysql.py[line:27]ERROR (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 19, in __init__
+    self.coon=pymysql.connect(host=host_db,user=user_db,passwd=passwd_db,db=name_db,port=port_db,charset="utf8",cursorclass=pymysql.cursors.DictCursor)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 632, in connect
+    self._get_server_information()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+2021-09-06 14:03:26,997 opmysql.py[line:27]ERROR (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 19, in __init__
+    self.coon=pymysql.connect(host=host_db,user=user_db,passwd=passwd_db,db=name_db,port=port_db,charset="utf8",cursorclass=pymysql.cursors.DictCursor)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 632, in connect
+    self._get_server_information()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+2021-09-06 14:20:25,781 opmysql.py[line:27]ERROR (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 19, in __init__
+    self.coon=pymysql.connect(host=host_db,user=user_db,passwd=passwd_db,db=name_db,port=port_db,charset="utf8",cursorclass=pymysql.cursors.DictCursor)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 632, in connect
+    self._get_server_information()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+2021-09-06 16:23:14,979 opmysql.py[line:27]ERROR (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 19, in __init__
+    self.coon=pymysql.connect(host=host_db,user=user_db,passwd=passwd_db,db=name_db,port=port_db,charset="utf8",cursorclass=pymysql.cursors.DictCursor)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 632, in connect
+    self._get_server_information()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+2021-09-06 16:28:39,811 opmysql.py[line:27]ERROR (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 19, in __init__
+    self.coon=pymysql.connect(host=host_db,user=user_db,passwd=passwd_db,db=name_db,port=port_db,charset="utf8",cursorclass=pymysql.cursors.DictCursor)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 632, in connect
+    self._get_server_information()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+2021-09-06 16:29:15,482 opmysql.py[line:29]ERROR (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 21, in __init__
+    self.coon=pymysql.connect(host=host_db,user=user_db,passwd=passwd_db,db=name_db,port=port_db,charset="utf8",cursorclass=pymysql.cursors.DictCursor)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 632, in connect
+    self._get_server_information()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+2021-09-06 16:29:41,828 opmysql.py[line:29]ERROR (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 21, in __init__
+    self.coon=pymysql.connect(host=host_db,user=user_db,passwd=passwd_db,db=name_db,port=port_db,charset="utf8",cursorclass=pymysql.cursors.DictCursor)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 632, in connect
+    self._get_server_information()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+2021-09-06 16:30:39,678 opmysql.py[line:29]ERROR (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 21, in __init__
+    self.coon=pymysql.connect(host=host_db,user=user_db,passwd=passwd_db,db=name_db,port=port_db,charset="utf8",cursorclass=pymysql.cursors.DictCursor)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 632, in connect
+    self._get_server_information()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+2021-09-06 16:31:01,423 opmysql.py[line:29]ERROR (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 21, in __init__
+    self.coon=pymysql.connect(host=host_db,user=user_db,passwd=passwd_db,db=name_db,port=port_db,charset="utf8",cursorclass=pymysql.cursors.DictCursor)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 632, in connect
+    self._get_server_information()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+2021-09-06 16:32:03,323 opmysql.py[line:29]ERROR (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 21, in __init__
+    self.coon=pymysql.connect(host=host_db,user=user_db,passwd=passwd_db,db=name_db,port=port_db,charset="utf8",cursorclass=pymysql.cursors.DictCursor)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 632, in connect
+    self._get_server_information()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+2021-09-06 16:32:43,643 opmysql.py[line:29]ERROR (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 21, in __init__
+    self.coon=pymysql.connect(host=host_db,user=user_db,passwd=passwd_db,db=name_db,port=port_db,charset="utf8",cursorclass=pymysql.cursors.DictCursor)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 353, in __init__
+    self.connect()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 632, in connect
+    self._get_server_information()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1130, "DESKTOP-705NFNF' is not allowed to connect to this MySQL server")
+2021-09-06 16:36:10,439opmysql.py[line:48]ERROR (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'config='test' where id=1' at line 1")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 39, in op_sql
+    self.cur.execute(condition) #÷¥––SQL”Ôæ‰
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'config='test' where id=1' at line 1")
+2021-09-06 16:36:10,446opmysql.py[line:102]ERROR (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'valuse ('mytest1','mytest11','Œƒµµ≤‚ ‘1','1')' at line 1")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 93, in insert_data
+    results=self.cur.executemany(condition,params)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\cursors.py", line 182, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\cursors.py", line 182, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'valuse ('mytest1','mytest11','Œƒµµ≤‚ ‘1','1')' at line 1")
+2021-09-06 16:41:15,086opmysql.py[line:48]ERROR (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'config='test' where id=1' at line 1")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 39, in op_sql
+    self.cur.execute(condition) #÷¥––SQL”Ôæ‰
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'config='test' where id=1' at line 1")
+2021-09-06 16:46:11,383opmysql.py[line:48]ERROR (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'config='test' where id=1' at line 1")
+Traceback (most recent call last):
+  File "D:\PyApi_heartdub\operation_mysql\common\opmysql.py", line 39, in op_sql
+    self.cur.execute(condition) #÷¥––SQL”Ôæ‰
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\YuanhuaMu\PycharmProjects\pythonProject\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'config='test' where id=1' at line 1")
